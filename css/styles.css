@@ -185,20 +185,3 @@ section {
     margin-top: 8px;
     color: #475569;
 }
-
-@media print {
-    body {
-        background: white;
-    }
-
-    .cv-page {
-        margin: 0;
-        box-shadow: none;
-        width: 100%;
-        min-height: auto;
-    }
-
-    .btn, .btn-outline {
-        display: none;
-    }
-}
